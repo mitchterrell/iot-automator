@@ -1,10 +1,3 @@
-[build-system]
-requires = ["sphinx-theme-builder >= 0.2.0a10"]
-build-backend = "sphinx_theme_builder"
-
-[tool.sphinx-theme-builder]
-node-version = "1.0_beta"
-
 [project]
 name = "iot-automator"
 description = "A library for building complex IoT device automations using Python with an emphasis on simplicity, robustness and scalability."
