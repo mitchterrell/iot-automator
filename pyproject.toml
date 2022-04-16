@@ -9,6 +9,7 @@ dependencies = [
   "beautifulsoup4",
   "sphinx ~= 4.0",
   "pygments ~= 2.7",
+  "furo ~=2022.4.7"
 ]
 
 license = { file = "LICENSE"}
