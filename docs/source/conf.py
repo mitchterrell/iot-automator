@@ -31,10 +31,39 @@ release = '1.0_beta'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    # Sphinx's own extensions
+    "sphinx.ext.autodoc",
+    "sphinx.ext.extlinks",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.todo",
+    "sphinx.ext.viewcode",
+    # Our custom extension, only meant for Furo's own documentation.
+    "furo.sphinxext",
+    # External stuff
+    "myst_parser",
+    "sphinx_copybutton",
+    "sphinx_design",
+    "sphinx_inline_tabs",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+#
+# -- Options for extlinks ----------------------------------------------------
+#
+extlinks = {
+    "pypi": ("https://pypi.org/project/%s/", ""),
+}
+
+#
+# -- Options for intersphinx -------------------------------------------------
+#
+intersphinx_mapping = {
+    "python": ("https://docs.python.org/3", None),
+    "sphinx": ("https://www.sphinx-doc.org/en/master", None),
+}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
