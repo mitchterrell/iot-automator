@@ -2,9 +2,9 @@
 name = "iot-automator"
 description = "A library for building complex IoT device automations using Python with an emphasis on simplicity, robustness and scalability."
 dynamic = ["version"]
-readme = "README.rst"
+readme = "README.md"
 
-requires-python = ">=3.0"
+requires-python = ">=3.6"
 dependencies = [
   "beautifulsoup4",
   "sphinx ~= 4.0",
