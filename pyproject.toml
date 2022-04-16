@@ -1,0 +1,39 @@
+[build-system]
+requires = ["sphinx-theme-builder >= 0.2.0a10"]
+build-backend = "sphinx_theme_builder"
+
+[tool.sphinx-theme-builder]
+node-version = "1.0_beta"
+
+[project]
+name = "iot-automator"
+description = "A library for building complex IoT device automations using Python with an emphasis on simplicity, robustness and scalability."
+dynamic = ["version"]
+readme = "README.md"
+
+requires-python = ">=3.6"
+dependencies = [
+  "beautifulsoup4",
+  "sphinx ~= 4.0",
+  "pygments ~= 2.7",
+]
+
+license = { file = "LICENSE"}
+authors = [
+    {name = "Mitchell Terrell", email = "mitchterrell@gmail.com"},
+]
+classifiers = [
+	'Development Status :: 1 - Planning',
+	'Environment :: Console',
+	'Intended Audience :: Developers',
+	'Operating System :: OS Independent',
+	'Programming Language :: Python',
+	'Programming Language :: Python :: 3',
+	'Programming Language :: Python :: 3.6',
+	'Programming Language :: Python :: 3.7',
+	'Programming Language :: Python :: 3.8',
+	'Programming Language :: Python :: 3.9',
+]
+
+[project.urls]
+GitHub = "https://github.com/mitchterrell/iot-automator"
