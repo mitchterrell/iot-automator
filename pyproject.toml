@@ -1,0 +1,33 @@
+[project]
+name = "iot-automator"
+description = "A library for building complex IoT device automations using Python with an emphasis on simplicity, robustness and scalability."
+dynamic = ["version"]
+readme = "README.rst"
+
+requires-python = ">=3.0"
+dependencies = [
+  "beautifulsoup4",
+  "sphinx ~= 4.0",
+  "pygments ~= 2.7",
+  "furo ~=2022.4.7"
+]
+
+license = { file = "LICENSE"}
+authors = [
+    {name = "Mitchell Terrell", email = "mitchterrell@gmail.com"},
+]
+classifiers = [
+	'Development Status :: 1 - Planning',
+	'Environment :: Console',
+	'Intended Audience :: Developers',
+	'Operating System :: OS Independent',
+	'Programming Language :: Python',
+	'Programming Language :: Python :: 3',
+	'Programming Language :: Python :: 3.6',
+	'Programming Language :: Python :: 3.7',
+	'Programming Language :: Python :: 3.8',
+	'Programming Language :: Python :: 3.9',
+]
+
+[project.urls]
+GitHub = "https://github.com/mitchterrell/iot-automator"
