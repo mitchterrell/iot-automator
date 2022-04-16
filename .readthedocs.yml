@@ -6,13 +6,11 @@ build:
   tools:
     python: "3.7.6"
 
-sphinx:
-  configuration: docs/source/conf.py
-
 python:
   install:
     - requirements: docs/requirements.txt
     - method: pip
-    path: .
-    extra_requirements:
+      path: .
+      extra_requirements:
         - furo
+  system_packages: true
