@@ -4,7 +4,6 @@ User Guide
 TODO
 
 .. toctree::
-   :maxdepth: 10
 
    faq
    node_connection

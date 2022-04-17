@@ -32,7 +32,8 @@ Here's how the library is used to control an IoT device environment:
 TODO add more of a description and a simple example.
 
 .. toctree::
-   :maxdepth: 5
+   :hidden:
+   :maxdepth: 2
 
    tutorials/index
    api/index

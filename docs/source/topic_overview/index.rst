@@ -2,7 +2,6 @@ Topic Overview
 ==============
 
 .. toctree::
-   :maxdepth: 5
 
    system_overview
    node_architecture
