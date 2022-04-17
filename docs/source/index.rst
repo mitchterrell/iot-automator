@@ -1,63 +1,39 @@
 iot-automator
 =============
 
+|pypi-v| |pypi-pyversions| |pypi-l| |pypi-wheel| |tests|
+
+.. |pypi-v| image:: https://img.shields.io/pypi/v/websockets.svg
+    :target: https://pypi.python.org/pypi/websockets
+
+.. |pypi-pyversions| image:: https://img.shields.io/pypi/pyversions/websockets.svg
+    :target: https://pypi.python.org/pypi/websockets
+
+.. |pypi-l| image:: https://img.shields.io/pypi/l/websockets.svg
+    :target: https://pypi.python.org/pypi/websockets
+
+.. |pypi-wheel| image:: https://img.shields.io/pypi/wheel/websockets.svg
+    :target: https://pypi.python.org/pypi/websockets
+
+.. |tests| image:: https://github.com/aaugustin/websockets/workflows/tests/badge.svg?branch=master
+   :target: https://github.com/aaugustin/websockets/actions?workflow=tests
+   
+TODO change the above to point to ``iot-automator`` project
+
 ``iot-automator`` is a library for building complex IoT device automations using Python
 with an emphasis on simplicity, robustness and scalability.
 
+Here's how the library is used to control an IoT device environment:
+
+.. literalinclude:: ../../example/basic_start.py
+
 TODO add more of a description and a simple example.
 
-Tutorials
----------
-
-TODO add description
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
-   intro
-   faq
-
-How-to guides
--------------
-
-These guides will help you build and deploy an ``iot-automator`` application.
-
-.. toctree::
-   :maxdepth: 2
-
-   cheatsheet
-
-Reference
----------
-
-Contains a detailed description of the ``iot-automator`` library.
-
-.. toctree::
-   :maxdepth: 2
-
+   tutorials/index
    api/index
-
-Discussions
------------
-
-Get a deeper understanding of how ``iot-automator`` is built and why.
-
-.. toctree::
-   :maxdepth: 2
-
-   design
-   limitations
-   security
-
-Project
--------
-
-TODO better desription
-This is about iot-automator-project rather than iot-automator-the-software.
-
-.. toctree::
-   :maxdepth: 2
-
-   changelog
-   contributing
-   license
+   user_guide/index
+   topic_overview/index
+   about/index

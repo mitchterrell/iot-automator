@@ -4,11 +4,11 @@ API
 TODO detailed API introduction description
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
    node
    device
-   sense
-   actuate
-   events
+   types
+   utilities
+   limitations
 
