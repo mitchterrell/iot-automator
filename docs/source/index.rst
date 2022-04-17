@@ -20,6 +20,8 @@ iot-automator
    
 TODO change the above to point to ``iot-automator`` project
 
+local edit
+
 ``iot-automator`` is a library for building complex IoT device automations using Python
 with an emphasis on simplicity, robustness and scalability.
 
