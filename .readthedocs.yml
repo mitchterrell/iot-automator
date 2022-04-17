@@ -4,6 +4,12 @@ build:
   os: "ubuntu-20.04"
   tools:
     python: "3.9"
+  jobs:
+      pre_create_environment:
+        - echo "Command run at 'pre_create_environment' step"
+      post_build:
+        - echo "Command run at 'post_build' step"
+        - echo `date`
 
 sphinx:
   configuration: docs/source/conf.py
