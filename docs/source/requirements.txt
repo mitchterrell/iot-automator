@@ -1,3 +1,4 @@
+Sphinx~=4.5.0
 myst-parser
 sphinx-copybutton
 sphinx-design
