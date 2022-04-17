@@ -6,15 +6,15 @@ build:
     python: "3.9"
   jobs:
       pre_create_environment:
-        - rm -rf docs/source/_build
+        - rm -rf docs/_build
       post_build:
         - echo "Command run at 'post_build' step"
         - echo `date`
 
 sphinx:
-  configuration: docs/source/conf.py
+  configuration: docs/conf.py
 
 python:
   install:
-    - requirements: docs/source/requirements.txt
+    - requirements: docs/requirements.txt
         
