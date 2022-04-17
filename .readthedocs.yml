@@ -6,7 +6,9 @@ build:
     python: "3.9"
   jobs:
       pre_create_environment:
+        - cd docs
         - ls -l
+        - cd ..
       post_build:
         - echo "Command run at 'post_build' step"
         - echo `date`
