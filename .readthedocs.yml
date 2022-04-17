@@ -9,7 +9,7 @@ build:
         - rm -rf docs/_build
       post_build:
         - echo "Command run at 'post_build' step"
-        - echo `date`
+        - cd docs;ls -l
 
 sphinx:
   configuration: docs/conf.py
