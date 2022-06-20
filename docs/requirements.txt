@@ -1,5 +1,4 @@
 Sphinx~=4.5.0
-myst-parser
 PyQt5
 sphinx-copybutton
 sphinx-design
