@@ -2,6 +2,5 @@ Sphinx~=4.5.0
 PyQt5
 sphinx-copybutton
 sphinx-design
-sphinx-inline-tabs
 sphinx-tabs
 furo

@@ -25,7 +25,6 @@ extensions = [
     # External stuff
     "sphinx_copybutton",
     "sphinx_design",
-    "sphinx_inline_tabs"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
