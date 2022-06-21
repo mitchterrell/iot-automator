@@ -39,4 +39,5 @@ TODO add more of a description and a simple example.
    api/index
    user_guide/index
    topic_overview/index
+   developer_docs/index
    about/index

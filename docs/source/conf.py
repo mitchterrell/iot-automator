@@ -62,6 +62,10 @@ html_theme = "furo"
 # This path contains a folder for statically linked files to the webpage (i.e. css + js files)
 html_static_path    = ['_static']
 
+html_css_files      = [
+    'custom.css',
+]
+
 html_logo           = "_static/colored_logo_w_name.svg"
 
 html_title          = "iot-automator"

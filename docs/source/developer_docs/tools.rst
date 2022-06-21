@@ -78,7 +78,7 @@ development easier.
 
         VS Config File :octicon:`link-external;1em;sd-text-warning`
 
-    .. image:: _static/import_config.jpg
+    .. image:: ../_static/import_config.jpg
         :align: center
 
     
