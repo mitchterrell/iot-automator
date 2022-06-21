@@ -27,7 +27,7 @@ with an emphasis on simplicity, robustness and scalability.
 
 Here's how the library is used to control an IoT device environment:
 
-.. literalinclude:: ../../example/basic_start.py
+.. literalinclude:: _examples/basic_start.py
 
 TODO add more of a description and a simple example.
 

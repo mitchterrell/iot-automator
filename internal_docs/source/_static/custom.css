@@ -1,0 +1,5 @@
+
+/* added class to align my button in the center */
+.sd-align-major-center {
+    display: flex !important;
+}
