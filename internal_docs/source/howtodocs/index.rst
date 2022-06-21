@@ -11,5 +11,6 @@ This subsection contains a list of how-to documents.
    :caption: Contents:
 
    external_docs
+   prog_stands
 
 

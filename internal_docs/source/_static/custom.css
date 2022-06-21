@@ -3,3 +3,13 @@
 .sd-align-major-center {
     display: flex !important;
 }
+
+details.sd-dropdown .sd-summary-title {
+    background: #d0d0d0;
+}
+
+/* Override CSS var (not working) */
+/*body {
+    --sd-color-card-background: #eeebee;
+}
+*/

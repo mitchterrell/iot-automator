@@ -22,6 +22,25 @@ not be supporting any Python 2 versions.
     Python 3.7.6 Download :octicon:`link-external;1em;sd-text-warning`
 
 
+.. dropdown:: Python Libraries
+    :animate: fade-in-slide-down
+
+    **TODO -- I need a better list**
+
+    **TODO -- There are better ways to track package requirments for PyPip**
+
+
+
+    - ``pip install -U sphinx``
+        - Sphinx is the doucumentation tool
+    - ``pip install furo``
+        - Sphinx theme
+    - ``pip install sphinx_design``
+        - Sphinx add on that has some nice additions
+    - ``pip install sphinx-copybutton``
+        - Sphinx add on that gives a copy button next to admontions
+
+
 ------------------
 
 
@@ -85,7 +104,34 @@ development easier.
 Version Control
 -----------------
 
-git + source tree
+Git
+****
+
+Git is only source control that we will be using for this project. I am using **v2.36**
+
+.. button-link:: https://git-scm.com/downloads
+    :color: primary
+    :expand:
+    :tooltip: Git Download Page
+    :outline:
+
+    Git 2.36.1 Download :octicon:`link-external;1em;sd-text-warning`
+
+
+
+SourceTree
+***********
+
+SourceTree is a free tool that I use for a lot of Git stuff. It has a super clean UI and works better than some of the IDE 
+embedded version control systems (IMO).
+
+.. button-link:: https://www.sourcetreeapp.com/
+    :color: primary
+    :expand:
+    :tooltip: SourceTree Download Page
+    :outline:
+
+    SourceTree Download :octicon:`link-external;1em;sd-text-warning`
 
 ------------------
 
@@ -95,7 +141,48 @@ Documentation:
 Figma
 ******
 
+For diagram generation and process flow mapping, I have recently been using Figma. It is an awesome tool and does not have a crazy 
+pay wall limiting you from features.
+
+.. note::
+    I recommend downloading the Desktop client, although the browswer version contains all the same features. 
+
+
+.. button-link:: https://www.figma.com
+    :color: primary
+    :expand:
+    :tooltip: Figma
+    :outline:
+
+    Figma Page :octicon:`link-external;1em;sd-text-warning`
+
+
+**TODO: I need to create a shared workspace**
+
+
 Sphinx + ReadTheDocs
 ************************
+
+Sphinx and ReadTheDocs are two tools that we will use a lot for strong documentation for this project. 
+
+**TODO: Some more notes here would be nice**
+
+You can learn more about both below:
+
+.. button-link:: https://www.sphinx-doc.org/en/master/
+    :color: primary
+    :expand:
+    :tooltip: Sphinx
+    :outline:
+
+    Sphinx Page :octicon:`link-external;1em;sd-text-warning`
+
+.. button-link:: https://docs.readthedocs.io/en/stable/tutorial/
+    :color: primary
+    :expand:
+    :tooltip: ReadTheDocs
+    :outline:
+
+    ReadTheDocs Page :octicon:`link-external;1em;sd-text-warning`
 
 
