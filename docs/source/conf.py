@@ -23,10 +23,8 @@ extensions = [
     "sphinx.ext.viewcode",
     
     # External stuff
-    "myst_parser",
     "sphinx_copybutton",
     "sphinx_design",
-    "sphinx_inline_tabs"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
