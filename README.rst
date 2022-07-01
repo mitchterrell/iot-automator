@@ -1,3 +1,5 @@
+[![GitHub Super-Linter](https://github.com/mitchterrell/iot-automator/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 TOODO add image
 
 TODO add python version, pip support, etc. here

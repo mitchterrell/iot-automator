@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"autoDocstring.customTemplatePath": "",
+		"autoDocstring.docstringFormat": "sphinx",
+		"autoDocstring.startOnNewLine": true,
+		"autoDocstring.includeName": true,
+		"autoDocstring.guessTypes": true,
+		"autoDocstring.logLevel": "Info"
+	}
+}
