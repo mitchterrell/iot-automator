@@ -5,5 +5,5 @@ class test_random(unittest.TestCase):
     def test_assertTrue(self):
         self.assertEqual("Truman", "Truman")
     def test_assertFalse(self):
-        self.assertNotEqual("Truman", "Mitch")
+        self.assertEqual("Truman", "Mitch")
 
