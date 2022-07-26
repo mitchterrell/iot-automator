@@ -1,14 +1,17 @@
 {
+    //Linter Setup
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.lintOnSave": true,
+
+    //Black Formatter Setup
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true
     },
 
-    "autoDocstring.docstringFormat": "sphinx",
-    "autoDocstring.generateDocstringOnEnter": true,
-    "autoDocstring.includeExtendedSummary": true,
-    "autoDocstring.guessTypes": true
+    //Python Environment Setup
+    "python.terminal.activateEnvironment": true, 
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/.poetry_venvs/iot-automator-KAW1Pxnn-py3.10/Scripts/python.exe"
 }

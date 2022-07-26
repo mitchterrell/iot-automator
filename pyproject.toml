@@ -1,0 +1,26 @@
+# Basic Prject Configuration
+[tool.poetry]
+name            = "iot_automator"
+version         = "0.1.0_pre_release"
+description     = "TODO better description soon"
+authors         = ["Mitch Terrell <mitchterrell@gmail.com>, Truman Brown <brow5190@umn.edu>"]
+readme          = "README.rst"
+homepage        = "https://iot-automator.readthedocs.io/en/latest/"
+repository      = "https://github.com/mitchterrell/iot-automator.git"
+documentation   = "https://iot-automator.readthedocs.io/en/latest/"             # documentation and homepage on same page
+
+# Library Dependencies to be included in final package
+[tool.poetry.dependencies]
+python = "^3.7.2"
+
+# Library Dependencies only needed for development environment
+[tool.poetry.dev-dependencies]
+
+# (a) Programming + Documentation Packages
+pylint = "^2.14.5"
+Sphinx = "^5.1.0"
+
+# Poetry Build Configuration
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

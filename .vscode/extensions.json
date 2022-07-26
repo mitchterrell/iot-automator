@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "njpwerner.autodocstring"
+        "njpwerner.autodocstring",
+        "bungcip.better-toml"
     ]
 }

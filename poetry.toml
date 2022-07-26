@@ -1,0 +1,6 @@
+[virtualenvs]
+path = ".poetry_venvs"
+create = true
+
+[installer]
+parallel = true
