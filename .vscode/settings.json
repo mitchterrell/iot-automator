@@ -1,17 +1,41 @@
 {
-    //Linter Setup
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "python.linting.lintOnSave": true,
+	//Autodocstring Settings
+	"autoDocstring.customTemplatePath": "",
+	"autoDocstring.docstringFormat": "sphinx",
+	"autoDocstring.startOnNewLine": true,
+	"autoDocstring.includeName": true,
+	"autoDocstring.guessTypes": true,
+	"autoDocstring.logLevel": "Info",
 
-    //Black Formatter Setup
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
-    },
+	
+	
+	//Exclude File List
+	"files.exclude" : {
+		"**/__pycache__" : true
+	},
 
-    //Python Environment Setup
-    "python.terminal.activateEnvironment": true, 
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.defaultInterpreterPath": "${workspaceFolder}/.poetry_venvs/iot-automator-KAW1Pxnn-py3.10/Scripts/python.exe"
+	//Linter Setup [PyLint]
+	"python.linting.pylintPath": ".venv/bin/pylint",
+	"python.linting.pylintEnabled": true,
+	"python.linting.enabled": true,
+	"python.linting.lintOnSave": true,
+
+	//Black Formatter Setup
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter",
+		"editor.formatOnSave": true
+	},
+
+	//Python Environment Setup
+	"python.terminal.activateEnvironment": true,
+	"python.terminal.activateEnvInCurrentTerminal": true,
+	"python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+
+
+	//Add src folder to pythonpath so it is searched
+	"terminal.integrated.env.windows": {
+		"PYTHONPATH" : "${workspaceFolder}/src"
+	},
+
+	"python.analysis.extraPaths": ["${workspaceFolder}/src"]
 }

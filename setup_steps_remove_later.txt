@@ -1,0 +1,15 @@
+(1) Install pyenv (add windows and linux version)
+(2) Install python version with pyenv
+    pyenv install 3.10.5
+(3) CD to io_automator folder
+(4) Check python version, should automatically be 3.10.5, if not:
+    pyenv local 3.10.5
+(5) Install some basic reqs
+    python -m pip install --upgrade pip
+    pip install pipx
+    pipx upgrade poetry 
+(6) Install poetry
+    (a) Make sure you are in our iot_automator folder which will allow poetry to pick up the poetry.toml file
+    (b) poetry install 
+
+Now there should be a .venv folder which is ignored by git, but VS code will use this as the interpreter

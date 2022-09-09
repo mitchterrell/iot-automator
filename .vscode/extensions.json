@@ -1,6 +1,10 @@
 {
     "recommendations": [
         "njpwerner.autodocstring",
-        "bungcip.better-toml"
+        "ms-python.black-formatter",
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-python.pylint",
+        "ms-python.python"
     ]
+    
 }

@@ -1,5 +1,5 @@
 [virtualenvs]
-path = ".poetry_venvs"
+in-project = true
 create = true
 
 [installer]

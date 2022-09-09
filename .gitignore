@@ -3,6 +3,7 @@
 # Ignore build folder of sphinx documentation generator
 docs/build/*
 internal_docs/build/*
+.venv/
 
 
 ## Ignore Visual Studio temporary files, build results, and
