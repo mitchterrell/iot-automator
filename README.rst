@@ -1,11 +1,19 @@
-[![GitHub Super-Linter](https://github.com/mitchterrell/iot-automator/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-TOODO add image
+.. image:: docs/source/_static/colored_logo_w_name.png
+    
+|tests|  
+
+.. |tests| image:: https://github.com/mitchterrell/iot-automator/actions/workflows/tests.yml/badge.svg
+   :target: https://github.com/mitchterrell/iot-automator/actions/workflows/tests.yml
+   
+   
 
 TODO add python version, pip support, etc. here
 
+[![GitHub Super-Linter](https://github.com/mitchterrell/iot-automator/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 What is ``iot-automator``?
------------------------
+-----------------------------
 
 ``iot-automator`` is a library for building complex IoT device automations using Python
 with an emphasis on simplicity, robustness and scalability.
