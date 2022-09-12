@@ -47,3 +47,4 @@ The engine also provides scalability across the framework by offloading module e
    topic_overview/index
    developer_docs/index
    about/index
+   supported_hubs/index
